@@ -1,0 +1,39 @@
+﻿@model Project.Presentation.Web.Models.MasterBarangViewModel
+
+<h1>Insert</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Insert">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Nama Barang</label>
+                <input asp-for="NamaBarang" class="form-control" />
+                <span asp-validation-for="NamaBarang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Nama Supplier</label>
+                <input asp-for="NamaSupplier" class="form-control" />
+                <span asp-validation-for="NamaSupplier" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Harga" class="control-label"></label>
+                <input asp-for="Harga" class="form-control" />
+                <span asp-validation-for="Harga" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Stok Barang</label>
+                <input asp-for="StokBarang" class="form-control" />
+                <span asp-validation-for="StokBarang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary mt-2 mb-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-danger">Back to List</a>
+</div>

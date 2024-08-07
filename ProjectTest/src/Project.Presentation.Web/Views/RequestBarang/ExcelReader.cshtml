@@ -1,0 +1,49 @@
+﻿<form asp-action="ExcelReader" enctype="multipart/form-data">
+    <div class="form-group">
+        <label> File input</label>
+        <input type="file" name="formFile" />
+    </div>
+    <div class="form-group ">
+        <input type="submit" class="btn btn-primary mt-2 mb-2" />
+    </div>
+
+
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            @if (ViewBag.excelData != null && ViewBag.excelData.Count > 0)
+            {
+                @foreach (var header in ViewBag.excelData[0])
+                {
+                    <th>@header</th>
+                }
+
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewBag.excelData != null && ViewBag.excelData.Count > 0)
+        {
+            @for (int i = 1; i < ViewBag.excelData.Count; i++)
+            {
+                <tr>
+                    @foreach (var data in ViewBag.excelData[i])
+                    {
+                        <td>@data</td>
+                    }
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.excelData != null)
+{
+    <form asp-action="AddToDatabase" enctype="multipart/form-data">
+        <div class="form-group">
+            <input type="submit" value="Add to Database" class="btn btn-warning" />
+        </div>
+    </form>
+}
