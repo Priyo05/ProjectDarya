@@ -9,67 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project.Presentation.Web
 build_property.RootNamespace = Project.Presentation.Web
-build_property.ProjectDir = C:\Users\1913\Documents\Project\ProjectTest\src\Project.Presentation.Web\
+build_property.ProjectDir = C:\Users\1913\Desktop\ProjectDarya\ProjectTest\src\Project.Presentation.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\1913\Documents\Project\ProjectTest\src\Project.Presentation.Web
+build_property.MSBuildProjectDirectory = C:\Users\1913\Desktop\ProjectDarya\ProjectTest\src\Project.Presentation.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/Home/Index.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Auth/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Auth/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Auth/ExternalRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxFeHRlcm5hbFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Auth/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/Home/Privacy.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/MasterBarang/Index.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/MasterBarang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyQmFyYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/MasterBarang/Insert.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/MasterBarang/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyQmFyYW5nXEluc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/MasterBarang/Update.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/MasterBarang/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyQmFyYW5nXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/ExcelReader.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/PDFView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUERGVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/ExcelReader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEJhcmFuZ1xFeGNlbFJlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/Index.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/FilterPDF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEJhcmFuZ1xGaWx0ZXJQREYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEJhcmFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/Insert.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEJhcmFuZ1xJbnNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/Report.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/RequestBarang/Report.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEJhcmFuZ1xSZXBvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/Shared/Error.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/_ViewImports.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/_ViewStart.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1913/Documents/Project/ProjectTest/src/Project.Presentation.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/1913/Desktop/ProjectDarya/ProjectTest/src/Project.Presentation.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8mjg3tbsoz

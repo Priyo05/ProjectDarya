@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Project.DataAccess.Models;
 
-public partial class ProjectContext : DbContext
+public partial class ProjectContext : IdentityDbContext<Users>
 {
-    public ProjectContext()
-    {
-    }
 
     public ProjectContext(DbContextOptions<ProjectContext> options)
         : base(options)
@@ -21,6 +19,8 @@ public partial class ProjectContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
+
         modelBuilder.Entity<BarangRequest>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__BarangRe__3214EC07CC76B084");

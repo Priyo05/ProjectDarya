@@ -135,6 +135,17 @@ public class RequestBarangRepository : IRequestBarangRepository
 
     }
 
+    public List<BarangRequest> GetPDFBarang(string? status,DateTime? fromDate, DateTime? toDate)
+    {
+        var query = from PDFBarang in _projectContext.BarangRequests
+                    where (PDFBarang.Status == status || status == null) &&
+                          (PDFBarang.RequestDate >= fromDate && PDFBarang.RequestDate <= toDate)
+                    select PDFBarang;
+
+        return query.ToList();
+
+    }
+
 
 }
 

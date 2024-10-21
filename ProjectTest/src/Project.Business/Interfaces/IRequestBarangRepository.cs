@@ -16,6 +16,7 @@ public interface IRequestBarangRepository
     public List<BarangRequest> GetAllReport(string? status);
     public List<MasterBarang> GetDataChart();
     public void AddToDatabase(List<MasterBarang> masterBarangs);
+    public List<BarangRequest> GetPDFBarang(string? status, DateTime? FromDate, DateTime? ToDate);
 
 }
 

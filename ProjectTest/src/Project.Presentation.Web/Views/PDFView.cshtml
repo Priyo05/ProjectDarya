@@ -1,0 +1,23 @@
+﻿@model PDFBarangViewModel
+
+<table class="table">
+    <tr>
+        <th>Nama Divisi</th>
+        <th>Kode Barang</th>
+        <th>Nama Barang</th>
+        <th>Jumlah</th>
+        <th>Status</th>
+        <th>Tanggal Request</th>
+    </tr>
+        @foreach (var item in Model.Bars)
+        {
+            <tr>
+                <td>@item.NamaDivisi</td>
+                <td>@item.KodeBarang</td>
+                <td>@item.NamaBarang</td>
+                <td>@item.Jumlah</td>
+                <td>@item.Status</td>
+                <td>@item.RequestDate</td>
+            </tr>
+        }
+</table>

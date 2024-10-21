@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1913\\Documents\\Project\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj": {}
+    "C:\\Users\\1913\\Desktop\\ProjectDarya\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1913\\Documents\\Project\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj": {
+    "C:\\Users\\1913\\Desktop\\ProjectDarya\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1913\\Documents\\Project\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\1913\\Desktop\\ProjectDarya\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj",
         "projectName": "Project.DataAccess",
-        "projectPath": "C:\\Users\\1913\\Documents\\Project\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj",
+        "projectPath": "C:\\Users\\1913\\Desktop\\ProjectDarya\\ProjectTest\\src\\Project.DataAccess\\Project.DataAccess.csproj",
         "packagesPath": "C:\\Users\\1913\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1913\\Documents\\Project\\ProjectTest\\src\\Project.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\1913\\Desktop\\ProjectDarya\\ProjectTest\\src\\Project.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1913\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,25 +40,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.10, )"
             }
           },
           "imports": [

@@ -3,10 +3,12 @@ using Project.Business.Interfaces;
 using Project.DataAccess.Models;
 using Project.Presentation.Web.Models;
 
+
+
 namespace Project.Presentation.Web.Services;
 public class RequestBarangService
 {
-    private IRequestBarangRepository _requestBarangRepository;
+    private readonly IRequestBarangRepository _requestBarangRepository;
 
     public RequestBarangService(IRequestBarangRepository requestBarangRepository)
     {
@@ -140,6 +142,36 @@ public class RequestBarangService
 
         _requestBarangRepository.AddToDatabase(masterBarangEntity);
     }
+
+    public PDFBarangViewModel GetBarangPDF(string? status,DateTime? fromDate, DateTime? toDate)
+    {
+        List<RequestBarangViewModel> resutl;
+
+        resutl = _requestBarangRepository.GetPDFBarang(status, fromDate, toDate)
+            .Select(c => new RequestBarangViewModel
+            {
+                KodeBarang = c.KodeBarang,
+                NamaBarang = c.NamaBarang,
+                Jumlah = c.Jumlah,
+                Status = c.Status,
+                NamaDivisi = c.NamaDivisi,
+                RequestDate = c.RequestDate,
+            }).ToList();
+
+
+        return new PDFBarangViewModel
+        {
+            Bars = resutl,
+            Status = status,
+            FromDate = fromDate,
+            ToDate = toDate,
+        };
+    }
+
+
+
+
+
 
 
 

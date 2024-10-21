@@ -1,0 +1,63 @@
+﻿@model PDFBarangViewModel
+
+<h1>Generate To PDF</h1>
+
+<form asp-action="FilterPDF" method="get">
+    <div class="form-group">
+        <label for="Status">Filter by Status:</label>
+        <select asp-for="Status" name="Status" class="form-select">
+            <option value="">All</option>
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+        <label for="FromDate">From Date</label>
+        <span asp-validation-for="FromDate" class="text-danger"></span>
+        <input type="date" asp-for="FromDate" name="FromDate" class="form-select" />
+        <label for="ToDate">To Date</label>
+        <span asp-validation-for="ToDate" class="text-danger"></span>
+        <input type="date" asp-for="ToDate" name="ToDate" class="form-select" />
+        <button type="submit" class="btn btn-primary mt-2">Filter</button>
+    </div>
+</form>
+
+@if (Model.Bars.Count > 0)
+{
+    <form asp-action="CreatePDF" method="post">
+        <input type="hidden" name="dataToken" value="@ViewBag.DataToken" />
+        <button type="submit" class="btn btn-outline-warning mt-2">Create PDF</button>
+    </form>
+}
+
+
+<table class="table">
+    <tr>
+        <th>Nama Divisi</th>
+        <th>Kode Barang</th>
+        <th>Nama Barang</th>
+        <th>Jumlah</th>
+        <th>Status</th>
+        <th>Tanggal Request</th>
+    </tr>
+    @if (Model.Bars.Count > 0)
+    {
+        @foreach (var item in Model.Bars)
+        {
+            <tr>
+                <td>@item.NamaDivisi</td>
+                <td>@item.KodeBarang</td>
+                <td>@item.NamaBarang</td>
+                <td>@item.Jumlah</td>
+                <td>@item.Status</td>
+                <td>@item.RequestDate</td>
+            </tr>
+        }
+
+    }
+    else
+    {
+        <tr class="col-5">
+            <td>No Data</td>
+        </tr>
+    }
+</table>
